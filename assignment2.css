@@ -1,0 +1,194 @@
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Proxima Nova", "Proxima Nova Fallback", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #231f20;
+  cursor: default;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pageWidth {
+  width: 1100px;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navWidth {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navWidth > img, span {
+  margin: 0;
+  position: absolute;
+  top: 21px;
+  color: white;
+}
+
+.navbar > span {
+  font-family: Proxima Nova Condensed, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.navWidth > a,
+.navWidth > .navRight > a {
+  float: left;
+  font-family: Proxima Nova Condensed, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  margin-top: 12px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navWidth > .navRight {
+  float: right;
+}
+
+.belowNavAd {
+    padding-top: 20px;
+    margin-top: 55px;
+    height: 120px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.belowNavAd > img {
+  display: block;
+  margin: 15px auto 0 auto; 
+}
+
+
+.primaryContent {
+    width: 750px;
+    display: block;
+}
+
+.rightContent {
+    width: 350px;
+}
+
+h1 {
+    font-family: "Proxima Nova", "Proxima Nova Fallback", sans-serif;
+    font-weight: 700;
+}
+.pageContent {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 20px; 
+}
+
+
+.p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.authorDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 8px solid #231f20;
+}
+
+.authorTable img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.authorTable tr:nth-child(2) {
+  padding: 10px;
+}
+
+a {
+    color: #01adb9;
+    text-decoration: none;
+  
+}
+a:hover {
+    color: #EC1D82;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 10px 0 5px; 
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #EC1D82;
+    font-weight: bold;
+    display:  inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+h6 {
+    font-size: 14px;
+    color: #918f8f;
+}
+
+.orangeText {
+    cursor: pointer;
+    text-decoration: none;
+    border-color: curr;
+    color: #f0533a;
+    border: 0;
+    background: none;
+}
+.flexContainer {
+    display: flex;
+}
+.flexChild {
+    flex: 1;
+}
+.orangeText:hover {
+    color: #EC1D82;
+}
+.floatRight {
+    float: right;
+}
+.bottomTable,
+.bottomTable > tbody{
+    width: 100%;
+}
+.bottomTable > tr:nth-child(2) {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
